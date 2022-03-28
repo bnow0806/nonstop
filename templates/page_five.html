@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="cover5">
+    <div class="mypic">
+        <center>
+            <h1>방명록 리스트</h1>
+        </center>
+    </div>
+    <div class="mybox">
+        <div class="myguest">
+            <input id="guest" class="form-control" type="text" placeholder="논스톱을 보고 느낀점을 입력하세요">
+            <button onclick="save_guest()" type="button" class="btn btn-outline-primary">등록</button>
+        </div>
+    </div>
+    <div class="mybox" id="guest-list">
+
+    </div>
+<div>
+{% endblock %}
