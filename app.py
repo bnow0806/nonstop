@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from pymongo import MongoClient
-client = MongoClient('mongodb+srv://test:sparta@cluster0.uccn3.mongodb.net/Cluster0?retryWrites=true&w=majority')
+client = MongoClient('계정 입력')
 db = client.dbsparta
 
 @app.route('/')
